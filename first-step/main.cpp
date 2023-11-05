@@ -11,7 +11,7 @@ class KeyHandler : public OgreBites::InputListener {
   }
 };
 
-int main(int argc, char* argv[]) {
+int main(int /*argc*/, char* /*argv*/[]) {
   OgreBites::ApplicationContext ctx("FirstStep");
   ctx.initApp();
 
